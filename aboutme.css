@@ -1,49 +1,48 @@
-.container {
+/* * .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .intro {
+    margin-right: 80px;
+  }
+  pic {
+    height: 40%;
+  } */ */
+  .container {
     background-color: rgb(80, 130, 163);
     padding: 8px;
     margin-bottom: 8px;
 }
-
 h1 {
     display: flex;
     justify-content: center;
     color: white;
     margin: 0px;
 }
-
 ul {
     margin: 0;
     padding: 0;
 }
-
 .navbar-links {
     display: flex;
     justify-content: center;
     list-style: none;
     margin: 10px;
 }
-
 .nav-item {
     font-size: 15px;
     text-align: center;
     padding: 0px 20px 0px 20px;
 }
-
 a:link,
 a:visited {
     color: white;
     text-decoration: none;
 }
-
 .main {
     display: flex;
     justify-content: space-between;
 }
-
 .intro {
     margin-right: 80px;
-}
-
-pic {
-    height: 10%;
 }
